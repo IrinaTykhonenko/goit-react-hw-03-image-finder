@@ -6,7 +6,7 @@ const ImageGalleryItem = ({ webformatURL, onImageClick }) => {
       <img
         src={webformatURL}
         alt="img"
-        className={s.ImageGalleryItem}
+        className={s.ImageGalleryItemImage}
         onClick={onImageClick}
       />
     </li>
